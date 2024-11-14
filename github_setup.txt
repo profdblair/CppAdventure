@@ -1,0 +1,18 @@
+git clone https://github.com/profdblair/ChantsAdventure.git
+cd into new directory
+rm -rf .git
+git status
+    not a git repository (or any of the parent directories): .git
+git config --global user.name "Dave Blair"
+git config --global user.email "profdblair@outlook.com"
+go to github, create the repo you want, make sure and leave it totally empty
+git remote add origin https://github.com/profdblair/CppAdventure.git
+git init
+git add .
+git commit -m "Initial Commit"
+git remote add origin https://github.com/profdblair/CppAdventure.git
+git remote -v
+    origin  https://github.com/profdblair/CppAdventure.git (fetch)
+    origin  https://github.com/profdblair/CppAdventure.git (push)
+git push --set-upstream origin master
+    check github for files being pushed
